@@ -1,4 +1,4 @@
-function Button({buttonIcon, buttonName}) {
+function Button({buttonIcon = "🐕", buttonName}) {
   return (
     <button>
       <span role="img">{buttonIcon}</span>

@@ -1,13 +1,19 @@
-const student = {
-  name: "John Doe",
-  age: 18,
-  courseCode: "SD"
-}
+const isLoggedIn = false;
 
-// const name = student.name;
-// const age = student.age;
-// const courseCode = student.courseCode;
+// if (isLoggedIn){
+//   console.log("I'm logged in");
+// } else {
+//   console.log("I'm logged out");
+// }
 
-const { name, age, courseCode } = student;
+console.log(isLoggedIn ? "I'm logged in" : "I'm logged out");
 
-console.log(name, age, courseCode)
+// function getLoggedIn(isLoggedIn) {
+//   return (isLoggedIn? 'Logged in' : '$Logged out');
+// }
+// console.log(getLoggedIn(true));
+// // Expected output: "$loggedIn"
+// console.log(getLoggedIn(false));
+// // Expected output: "$LogOut"
+// console.log(getLoggedIn(null));
+// // Expected output: "$logIn/LogOut"
